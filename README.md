@@ -1,3 +1,5 @@
+**Introdution**
+
 Financial markets are looked at with awe and confusion by market participants, investors, data scientists and anybody that tries to forecast prices or extract valuable information in order to invest in such markets. The constant flow of information, let it be from news or analyst reports, have a direct impact on investors’ positions and market prices.
 
 However, vast amount of new financial information is created every day and manually deriving actionable insights from it is impossible for any single entity. Thus, automatic sentiment analysis of texts becomes critical for firms and investors as it provides faster access to salient information and can give actors an edge. In fact, automatically inferring the polarity of a financial news or headline saves time and provide valuable insights. 
@@ -9,3 +11,7 @@ As such, the principal research interest for this thesis is polarity analysis. M
 We first hypothesize that a MultiTask learning approach offers better performance than a single-task approach on financial sentiment analysis as proposed by the FinBERT authors. Furthermore, we hypothesize that the unfreezing strategy of the pre-trained layers as stated in the FinBERT paper should be part of the hyper-parameter tuning step since it is expected to increase the model’s performance. 
 
 Thus, the goal of this thesis is to test the hypothesized advantages of exploring different unfreezing strategies as well as using fine-tuned pre-trained language models for financial domain in a Multi-Task scenario.
+
+**Key contributions**
+
+The highlights of important research in the field, the analysis of previously mentioned hypothesis, the methodology and structure used for the construction and tuning of the models allow us to target three main contributions to the research community. First, the use of a Multi-Task Learning approach with the FinBERT model was unheard of. Secondly, the analysis of the unfreezing strategy is also not common in the literature and was never done with the FinBERT model. We lastly contribute on a more technical and educational basis by going into detail in our hyper-parameter tuning done using the Weight & Biases platform. This is specifically interesting since few research papers actually go in depth in this critical step of building efficient deep learning models.
