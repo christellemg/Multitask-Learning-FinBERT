@@ -14,4 +14,10 @@ Thus, the goal of this thesis is to test the hypothesized advantages of explorin
 
 **Key contributions**
 
-The highlights of important research in the field, the analysis of previously mentioned hypothesis, the methodology and structure used for the construction and tuning of the models allow us to target three main contributions to the research community. First, the use of a Multi-Task Learning approach with the FinBERT model was unheard of. Secondly, the analysis of the unfreezing strategy is also not common in the literature and was never done with the FinBERT model. We lastly contribute on a more technical and educational basis by going into detail in our hyper-parameter tuning done using the Weight & Biases platform. This is specifically interesting since few research papers actually go in depth in this critical step of building efficient deep learning models.
+The highlights of important research in the field, the analysis of previously mentioned hypothesis, the methodology and structure used for the construction and tuning of the models allow us to target three main contributions to the research community. 
+
+First, the use of a Multi-Task Learning approach with the FinBERT model was unheard of. 
+
+Secondly, the analysis of the unfreezing strategy is also not common in the literature and was never done with the FinBERT model. 
+
+We lastly contribute on a more technical and educational basis by going into detail in our hyper-parameter tuning done using the Weight & Biases platform. This is specifically interesting since few research papers actually go in depth in this critical step of building efficient deep learning models.
